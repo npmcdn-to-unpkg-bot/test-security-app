@@ -1,0 +1,11 @@
+<h1>Login</h1>
+
+<div ng-controller="LoginController as ctrl">
+
+    <input type="text" placeholder="Please enter your username" ng-model="ctrl.username" class="login-input"/> <br />
+    <input type="text" placeholder="Please enter your password" ng-model="ctrl.password"/ class="login-input"> <br />
+    <input type="submit" value="Submit" ng-click="ctrl.login()" class="login-input"/> <br />
+
+    <a href="#createuser">Create user</a>
+
+</div>

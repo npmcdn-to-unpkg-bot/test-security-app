@@ -1,21 +1,28 @@
-<html>
+<head><title>Create User</title></head>
 
-    <head><title>Create User</title></head>
-    
-    <body>
-    
-        <div ng-controller="CreateUserController as ctrl">
-            
-            <p>Message: {{ ctrl.message }}</p>
-            
-            <input type="text" placeholder="Enter username here" ng-model="ctrl.username" /> <br /><br />
-            <input type="text" placeholder="Enter a password here" ng-model="ctrl.password" /><br /><br />
-            <input type="submit" value="Submit" ng-click="ctrl.createUser()" /><br /><br /><br />
-        
+<body>
+
+    <div ng-controller="CreateUserController as ctrl">
+
+        <p>Message: {{ ctrl.message }}</p>
+
+        <input type="text" placeholder="Enter username here" ng-model="ctrl.username" /> <br /><br />
+        <input type="text" placeholder="Enter a password here" ng-model="ctrl.password" /><br /><br />
+        <input type="submit" value="Submit" ng-click="ctrl.createUser()" /><br /><br /><br />
+
+
+        <div>Users: <br />
+            <ul ng-repeat="user in ctrl.users">
+
+                <td>ID: {{user.id}}</td>
+                <td>Username: {{user.username}}</td>
+                <td>Password: {{user.password}}</td>
+
+            </ul>
         </div>
-    
-    </body>
-    
-    
 
-</html>
+    </div>
+
+      <a href="#/">Login</a>
+
+</body>

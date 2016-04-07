@@ -1,6 +1,6 @@
 package com.securityapp.main.domain.requests;
 
-public class CreateUserRequest {
+public class UserRequest {
 
 	private String username;
 	private String password;

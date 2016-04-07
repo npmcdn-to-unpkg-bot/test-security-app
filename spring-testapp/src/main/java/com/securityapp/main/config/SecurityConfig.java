@@ -29,7 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception{
 		
 		//Allows access to the three locations specified, but requires authentication for all others
-		http.httpBasic().and().authorizeRequests().antMatchers("/", "/index.html", "/public/**").permitAll().anyRequest().authenticated();
+		http.httpBasic().and().authorizeRequests().antMatchers("/", "/#/").permitAll().anyRequest().authenticated();
 		
 		//Disable csrf
 		http.csrf().disable();

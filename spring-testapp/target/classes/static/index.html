@@ -1,28 +1,31 @@
 <html>
 
-	<head>
-		
-		<title>SecureApp</title>
-	
-	</head>
-	
-	<body ng-app="app">
-	       
-        <h1>Secure App</h1>
-		
-        <div ng-view>
-        
-        
-            
-        
-        
-        </div>
-        
-        <script type="text/javascript" src="lib/angular-1.5.3/angular.min.js"></script>
-        <script type="text/javascript" src="lib/angular-1.5.3/angular-route.js"></script>
-        <script type="text/javascript" src="js/main/app.js"></script>
-        <script type="text/javascript" src="js/controllers/CreateUserController.js"></script>
-	</body>
+<head>
+
+	<title>SecureApp</title>
+
+	<link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body ng-app="app">
+
+	<div ng-view id="maincontent">
+
+
+
+
+
+	</div>
+
+	<script type="text/javascript" src="lib/angular-1.5.3/angular.min.js"></script>
+	<script type="text/javascript" src="lib/angular-1.5.3/angular-route.js"></script>
+	<script type="text/javascript" src="js/main/app.js"></script>
+	<script type="text/javascript" src="js/util/RequestHelpers.js"></script>
+	<script type="text/javascript" src="js/controllers/CreateUserController.js"></script>
+	<script type="text/javascript" src="js/controllers/LoginController.js"></script>
+
+</body>
 
 
 </html>
