@@ -1,3 +1,4 @@
-/home/mcgowanl/workspace/spring-testapp/src/main/java/com/securityapp/main/SecurityApplication.java
-/home/mcgowanl/workspace/spring-testapp/src/main/java/com/securityapp/main/controller/UserController.java
-/home/mcgowanl/workspace/spring-testapp/src/main/java/com/securityapp/main/config/SecurityConfig.java
+/home/mcgowanl/workspace/spring-testapp-dir/test-security-app/spring-testapp/src/main/java/com/securityapp/main/controller/UserController.java
+/home/mcgowanl/workspace/spring-testapp-dir/test-security-app/spring-testapp/src/main/java/com/securityapp/main/SecurityApplication.java
+/home/mcgowanl/workspace/spring-testapp-dir/test-security-app/spring-testapp/src/main/java/com/securityapp/main/domain/requests/CreateUserRequest.java
+/home/mcgowanl/workspace/spring-testapp-dir/test-security-app/spring-testapp/src/main/java/com/securityapp/main/config/SecurityConfig.java

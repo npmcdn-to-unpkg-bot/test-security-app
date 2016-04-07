@@ -1,0 +1,21 @@
+<html>
+
+    <head><title>Create User</title></head>
+    
+    <body>
+    
+        <div ng-controller="CreateUserController as ctrl">
+            
+            <p>Message: {{ ctrl.message }}</p>
+            
+            <input type="text" placeholder="Enter username here" ng-model="ctrl.username" /> <br /><br />
+            <input type="text" placeholder="Enter a password here" ng-model="ctrl.password" /><br /><br />
+            <input type="submit" value="Submit" ng-click="ctrl.createUser()" /><br /><br /><br />
+        
+        </div>
+    
+    </body>
+    
+    
+
+</html>

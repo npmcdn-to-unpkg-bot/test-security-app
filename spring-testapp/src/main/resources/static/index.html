@@ -2,22 +2,26 @@
 
 	<head>
 		
-		<title>Security Application - Test</title>
+		<title>SecureApp</title>
 	
 	</head>
 	
-	<body>
-	
-		<form action="/public/createuser" method="POST">
-			<label>Username:</label>
-			<input name="username" placeholder="Enter username">
-			<br />
-			<label>Password:</label>
-			<input name="username" placeholder="Enter password">
-			<br />
-			<input type="submit" value="Submit">
-		</form>
+	<body ng-app="app">
+	       
+        <h1>Secure App</h1>
 		
+        <div ng-view>
+        
+        
+            
+        
+        
+        </div>
+        
+        <script type="text/javascript" src="lib/angular-1.5.3/angular.min.js"></script>
+        <script type="text/javascript" src="lib/angular-1.5.3/angular-route.js"></script>
+        <script type="text/javascript" src="js/main/app.js"></script>
+        <script type="text/javascript" src="js/controllers/CreateUserController.js"></script>
 	</body>
 
 
